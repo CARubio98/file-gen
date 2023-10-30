@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "file-generator"
+version = "0.1.0"
+authors = [
+    { name = "Leah Hartwell", email = "Hartwell022@gmail.com" },
+    { name = "Carlos Rubio", email = "CARubio98@yahoo.com" },
+]
+description = "Package to generate time dependent file names"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
